@@ -2,6 +2,12 @@ body {
     font-family: "Roboto" sans-serif;
     color: #2E2F42;
     background-color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
 }
 
 /* Header */
@@ -9,7 +15,6 @@ body {
     color: #2E2F42;
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.54px;
@@ -22,20 +27,16 @@ body {
 .header-link {
     color: #2E2F42;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     text-decoration: none;
 }
 .header-link:hover {
     color: #4D5AE5;
 }
-ul {
-    list-style-type: none;
-}
+
 .contacts-link {
     color: #434455;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     text-decoration: none;
 }
@@ -49,14 +50,79 @@ ul {
     background-color: #2E2F42;;
 }
 .hero-title {
-    color: #FFFFFF;
+
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    width: 496px;
 }
 .hero-button {
     color: #FFFFFF;
     border: none;
     background-color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-/* Benefits */
-.benefit-text, .job-text, .portfolio-text {
+/* Our benefits */ 
+.benefit-title {
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.benefit-text {
     color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    width: 264px;
 }
+
+/* Our team */
+.team-title {
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+ .job-text{
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-align: center;
+ }
+/* Our Portfolio */
+.portfolio-title {
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.4px;
+}
+ .portfolio-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+ }
+ /* Footer */
+ .footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    width: 264px;
+ }
