@@ -1,0 +1,58 @@
+body {
+    font-family: "Roboto" sans-serif;
+    color: #2E2F42;
+    background-color: #FFF;
+}
+
+/* Header */
+.logo {
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo .accent {
+    color: #4D5AE5;
+}
+.header-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+}
+.header-link:hover {
+    color: #4D5AE5;
+}
+ul {
+    list-style-type: none;
+}
+.contacts-link {
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+.contacts-link:hover {
+    color: #4D5AE5;
+}
+
+/* Main */
+/* Button */
+.hero-section {
+    background-color: #2E2F42;;
+}
+.hero-title {
+    color: #FFFFFF;
+}
+.hero-button {
+    color: #FFFFFF;
+    border: none;
+    background-color: #4D5AE5;
+}
