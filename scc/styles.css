@@ -56,3 +56,7 @@ ul {
     border: none;
     background-color: #4D5AE5;
 }
+/* Benefits */
+.benefit-text, .job-text, .portfolio-text {
+    color: #434455;
+}
