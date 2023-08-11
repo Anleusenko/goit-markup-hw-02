@@ -3,6 +3,7 @@ body {
     color: #434455;
     background-color: #FFF;
     font-size: 20px;
+    font-weight: 400;
     font-style: normal;
     text-decoration: none;
     line-height: 1.2;
@@ -100,7 +101,6 @@ ul {
 }
 .benefit-text {
     font-size: 16px;
-    font-weight: 400;
     width: 264px;
 }
 
@@ -126,7 +126,6 @@ ul {
 }
  .person-text{
     font-size: 16px;
-    font-weight: 400;
     text-align: center;
  }
 /* Our Portfolio */
@@ -145,7 +144,6 @@ ul {
 }
  .projects-text {
     font-size: 16px;
-    font-weight: 400;
  }
  /* Footer */
  .footer-section {
@@ -158,7 +156,6 @@ ul {
     color: #F4F4FD;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
     width: 264px;
