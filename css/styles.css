@@ -2,12 +2,6 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFF;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
 }
 ul {
     list-style-type: none;
@@ -20,7 +14,7 @@ ul {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -32,7 +26,7 @@ ul {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.32px;
     text-decoration: none;
 }
 .header-link:hover {
@@ -47,9 +41,8 @@ ul {
 .contacts-link {
     color: #434455;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.32px;
     text-decoration: none;
 }
 .contacts-link:hover {
@@ -70,7 +63,7 @@ ul {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.02em;
+    letter-spacing: 1.12px;
     text-align: center;
 }
 .hero-button {
@@ -94,11 +87,13 @@ ul {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
 }
 .benefit-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.32px;
 }
 
 /* Our team */
@@ -109,7 +104,7 @@ ul {
     color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.72px;
     text-align: center;
     text-transform: capitalize;
 }
@@ -120,12 +115,14 @@ ul {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
     text-align: center;
 }
  .person-text{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.32px;
     text-align: center;
  }
 /* Our Portfolio */
@@ -133,8 +130,8 @@ ul {
     color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.72px;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .projects-title {
@@ -142,12 +139,12 @@ ul {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.4px;
 }
  .projects-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.32px;
  }
  /* Footer */
  .footer-section {
@@ -159,7 +156,6 @@ ul {
  .footer-text {
     color: #F4F4FD;
     font-size: 16px;
-    font-style: normal;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
  }
